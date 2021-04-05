@@ -11,7 +11,7 @@ var options = {
 };
 
 mongoose.Promise = global.Promise;
-mongoose.connect("mongodb://localhost:27017/resume-bank", {useNewUrlParser: true ,useUnifiedTopology: true});
+mongoose.connect("mongodb://localhost:27017/resume-bank", { useNewUrlParser: true , useUnifiedTopology: true });
 var db = mongoose.connection;
 
 /* end */

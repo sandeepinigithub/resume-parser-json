@@ -1,7 +1,7 @@
 {
   "name": "resume-parser-package",
   "version": "1.0.0",
-  "description": "Upload doc file and paser into json",
+  "description": "UPload doc file and paser into json",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,10 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "formidable": "1.2.2",
-    "mime-types": "2.1.29",
-    "mongoose": "5.12.0",
-    "resume-parser": "1.1.0",
-    "unique-string": "2.0.0"
+    "formidable": "^1.2.2",
+    "mime-types": "^2.1.26",
+    "mongoose": "^5.9.10",
+    "resume-parser": "^1.1.0",
+    "unique-string": "^2.0.0"
   }
 }
